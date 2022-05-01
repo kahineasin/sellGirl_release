@@ -1,0 +1,26 @@
+﻿body
+{
+}
+
+.sellgirl-btn-blue
+{
+    border: dotted 1px black;
+    background-color: lightblue;
+}
+
+.sellgirl-btn-yellow
+{
+    border: dotted 1px black;
+    background-color: lightgoldenrodyellow;
+}
+
+
+.sellgirl-ol li:hover
+{
+    background-color: #ffe9f3; /*#黄ffffe5;粉红ffe9f3*/ /*#灰dedede*/
+}
+
+.sellgirl-ol li a:hover
+{
+    background-color: #ffdeed;
+}

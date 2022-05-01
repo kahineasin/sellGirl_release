@@ -1,0 +1,18 @@
+﻿body {
+}
+
+/* body {margin:20;font-size:9pt;} */
+form {margin:0;}
+input,select,textarea {font-size:9pt;}
+button {font-size:9pt;}
+
+.alert {color:#FF0000;font-family:Tahoma;margin-top:2px;}
+
+#regform ul {margin:0;padding:0;clear:both;height:30px;}
+#regform li {float:left;font-size:9pt;list-style:none;margin-right:4px;}
+#regform li input {width:178px;border:1px #666 solid;}
+#regform p {margin-top:4px;}
+
+#iWeak {float:left;width:60px;height:20px;text-align:center;margin-right:1px;background:#999;line-height:20px;color:#f1f1f1;}
+#iMedium {float:left;width:60px;height:20px;text-align:center;margin-right:1px;background:#999;line-height:20px;color:#f1f1f1;}
+#iStrong {float:left;width:60px;height:20px;text-align:center;background:#999;line-height:20px;color:#f1f1f1;}

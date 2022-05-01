@@ -1,0 +1,24 @@
+﻿
+/* 个人信息页 */
+.divBbsMemInfo{padding:20px;width:944px;border:1px solid #ddd;}
+.divBbsMemInfoT{width:917px;height:47px;}
+.divBbsMemInfoT p{font:16px "宋体";font-weight:bolder;color:#ff9c00;}
+.divBbsMemInfoBoxL{padding:45px 0px 0px 50px;float:left;margin-right:15px;width:125px;height:auto;background:url(../../images/bbs/UserInfo/img/meminfo.jpg) no-repeat;}
+.divBbsMemInfoBoxL ul{list-style-type:none;}
+.divBbsMemInfoBoxL ul li{height:35px;font:14px "宋体";color:#606060;line-height:35px;}
+.divBbsMemInfoBoxL ul li p{height:35px;font:14px "宋体";color:#606060;line-height:35px;cursor:pointer;}
+.divBbsMemInfoBoxR{padding:25px 0px 25px 25px;display:inline-block;width:711px;background-color:#efefef;border:1px solid #ddd;}
+.divBbsMemInfoBoxRT{margin-bottom:10px;font:18px "Microsoft YaHei";font-weight:bolder;color:#ff9c00;}
+.divBbsMemInfoBoxRC{padding:40px 0px 0px 27px;width:663px;height:auto;background-color:white;border:1px solid #ddd;}
+.divBbsMemInfoBoxRCL{float:left;margin-right:25px;width:150px;}
+.divBbsMemInfoBoxRCLImg{width:143px;height:143px;padding:5px 0px 0px 5px;background:url(../../images/bbs/UserInfo/img/user_face_bg.jpg) no-repeat;}
+.divBbsMemInfoBoxRCLImg img{width:135px;height:135px;}
+.divBbsMemInfoBoxRCRTbL{height:30px;padding-right:10px;font:12px "宋体";color:#606060;text-align:right;}
+input.divBbsMemInfoBoxRCRTbR{width:200px;border:1px solid #ddd;}
+.divBbsMemInfoBoxRCRTbRSub{padding-top:10px;}
+.divBbsMemInfoBoxRCRTbRSub input{width:100px;height:25px;font:12px "宋体";color:#606060;line-height:20px;}
+.divBbsMemInfoBoxRCRTbRSculpture{font:12px "宋体";}
+/* 个人信息页,用户积分 */
+.divBbsMemMoneyBoxRC tr{height:30px;font:16px "Microsoft YaHei";color:#606060;}
+.divBbsMemMoneyBoxRCRTbR{border-bottom:1px dashed #888;}
+.divBbsMemMoneyBoxRCRTbL{padding-left:160px;padding-right:20px;width:;}

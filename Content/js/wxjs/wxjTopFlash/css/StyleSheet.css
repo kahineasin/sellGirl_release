@@ -1,0 +1,61 @@
+﻿
+.CLEAR{CLEAR:BOTH;}
+/* 首页滚动图片 */
+#indexflash{margin-left:50px;width:860px;height:600px;}
+.num{position:relative; left:210px; top:6px;}
+.num li{
+	float: left;
+	width: 64px;
+	height: 41px;
+	cursor: pointer;
+	overflow: hidden;
+	margin-right:5px;
+	
+}
+.num li.on{
+	float: left;
+	width: 64px;
+	height: 41px;
+	cursor: pointer;
+	overflow: hidden;
+	margin-right:5px;}
+#li01{background:url(../images/handpad_btn_nor1.jpg) no-repeat;}
+#li02{background:url(../images/handpad_btn_nor2.jpg) no-repeat;}
+#li03{background:url(../images/handpad_btn_nor3.jpg) no-repeat;}
+#li04{background:url(../images/handpad_btn_nor4.jpg) no-repeat;}
+#li05{background:url(../images/handpad_btn_nor5.jpg) no-repeat;}
+#li06{background:url(../images/handpad_btn_nor6.jpg) no-repeat;}
+#li07{background:url(../images/handpad_btn_nor7.jpg) no-repeat;}
+#li08{background:url(../images/handpad_btn_nor8.jpg) no-repeat;}
+#li01.on{
+	background:url(../images/handpad_btn_sel1.jpg) no-repeat;
+}
+#li02.on{
+	background:url(../images/handpad_btn_sel2.jpg) no-repeat;
+}
+#li03.on{
+	background:url(../images/handpad_btn_sel3.jpg) no-repeat;
+}
+#li04.on{
+	background:url(../images/handpad_btn_sel4.jpg) no-repeat;
+}
+#li05.on{
+	background:url(../images/handpad_btn_sel5.jpg) no-repeat;
+}
+#li06.on{
+	background:url(../images/handpad_btn_sel6.jpg) no-repeat;
+}
+#li07.on{
+	background:url(../images/handpad_btn_sel7.jpg) no-repeat;
+}
+#li08.on{
+	background:url(../images/handpad_btn_sel8.jpg) no-repeat;
+}
+
+.sliderbox{padding-top:20px;margin-left:20px;width:800px; height:320px; overflow:hidden;display:block;}
+.slider li{ list-style:none;display:inline;}
+.slider img{ width:800px; height:320px; display:block;}
+
+.slider{width:5555520px;height:408px;}
+.slider li{float:left;}
+/* 首页滚动图片end */

@@ -1,0 +1,293 @@
+﻿p,div{font:12px "Microsoft Yahei";}
+/*************************产品展示页 tab切换css********************************/
+#proview_center_menu{
+	width:100%;
+	height:22px;
+	margin-bottom:1%;
+	line-height:22px;
+	background:url("../images/m_proview_midmenu_bg.png");
+}
+/***********************产品详细页 css*****************************************/
+#m_main_line_r_prov_box
+{
+    width:100%;
+    height:auto;
+	/*margin-left:39px;
+	padding-top:28px;
+	width:741px;
+	height:auto !important;
+	height:188px;
+	min-height:188px;
+	background:url("../images/m_proview_top_bg.png") no-repeat;*/
+}
+#m_main_line_r_prov_box_t{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	/*margin-left:5px;
+	width:730px;
+	height:270px;
+	overflow:hidden;*/
+}
+#m_main_line_r_prov_box_t_l
+{
+    position:relative;
+    float:left;
+    width:47%;
+    height:100%;
+    margin-right:3%;
+	/*float:left;
+	display:inline;
+	margin-left:10px;
+	width:323px;
+	height:270px;
+	overflow:hidden;*/
+}
+#m_main_line_r_prov_box_t_l_t
+{
+    position:relative;
+	width:100%;
+	height:100%;
+	margin:3% auto;
+	overflow:hidden;
+	border:1px solid #dddddd;
+	text-align:center;
+}
+#m_main_line_r_prov_box_t_l_t li{
+	width:245px;
+	border-bottom:1px dashed #dddddd;
+	background:#006600;
+}
+.m_main_line_r_prov_box_t_l_t_ll{
+	float:left;
+	display:inline;
+	margin-left:20px;
+	height:29px;
+	line-height:29px;
+	color:#b03a8d;
+}
+.m_main_line_r_prov_box_t_l_t_lr{
+	float:left;
+	display:inline;
+	margin-left:20px;
+	height:29px;
+	line-height:29px;
+}
+
+
+
+#m_main_line_r_prov_box_t_l_b
+{
+    position:relative;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    /*
+    position:relative;
+	bottom:0px;
+	width:100%;
+	height:82px;
+	overflow:hidden;*/
+}
+#m_main_line_r_prov_box_t_r
+{
+    display:inline-block;
+    width:50%;
+    height:auto;
+	/*float:right;
+	display:inline;
+	margin-right:25px;
+	width:323px;
+	height:230px;
+	overflow:hidden;*/
+}
+#m_main_line_r_prov_box_t_r img{width:100%;height:auto;}
+
+#m_main_line_r_prov_box_m
+{
+    margin-top:3%;
+	width:100%;
+	height:auto !important;
+	height:270px;
+	min-height:270px;
+	overflow:hidden;
+}
+#m_main_line_r_prov_box_b{
+	margin-left:5px;
+	width:730px;
+	height:100px;
+	overflow:hidden;
+}
+#m_main_line_r_prov_box_bs
+{
+    position:relative;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    
+    /*
+	margin-left:5px;
+	padding-top:20px;
+	width:730px;
+	height:100px;
+	overflow:hidden;*/
+}
+/*************************tab切换***********************/
+#index_center_con1{position:relative;width:100%;height:auto !important;/*height:163px*/min-height:163px;}
+#index_center_con2{position:relative;width:100%;height:auto !important;/*height:163px*/min-height:163px;}
+#index_center_con3{position:relative;width:100%;height:auto !important;/*height:163px*/min-height:163px;}
+
+.xixi1{width:100%;height:22px;line-height:22px;/*background-image:url(images/01.jpg);*/cursor:pointer;}
+.xixi2{width:100%;height:22px;line-height:22px;/*background-image:url(images/02.jpg);*/cursor:pointer;}
+.xixi3{width:100%;height:22px;line-height:22px;/*background-image:url(images/03.jpg);*/cursor:pointer;}
+
+.tab1{width:15%;height:22px;line-height:22px;float:left;text-align:center;cursor:pointer;/*background:url("../images/m_proview_midmenu_bgh.png")*/}
+.tab2{width:15%;height:22px;line-height:22px;float:left;text-align:center;cursor:pointer;color:#FFFFFF;}
+.tab3{width:15%;height:22px;line-height:22px;float:left;text-align:center;cursor:pointer;color:#FFFFFF;}
+
+
+/****************************自制图片滚动css******************************************/
+#jqslb
+{   position:absolute;
+	width:5%;
+	left:0;
+	top:0;
+	height:100%;
+	background:url("../images/m_proview_simg_lb.jpg") 0px 18px no-repeat;
+	cursor:pointer;
+	/*
+    position:absolute;
+	width:5%;
+	left:0;
+	top:0;
+	height:100%;
+	background:url("../images/m_proview_simg_lb.jpg") 0px 18px no-repeat;
+	cursor:pointer;
+	float:left;
+	width:23px;
+	height:100%;
+	background:url("../images/m_proview_simg_lb.jpg") 0px 18px no-repeat;
+	cursor:pointer;*/
+}
+#jqscb
+{
+    position:absolute;
+	width:85%;
+	height:100%;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	/*
+	float:left;
+	width:250px;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	left:16px;*/
+}
+#jqscc{
+	width:5000px;
+	height:100%;
+	position:relative;
+}
+#jqscc ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#jqscc li{
+	float:left;
+	margin-right:12px;
+	width:73px;
+	height:100%;
+}
+#jqsrb
+{
+    position:absolute;
+    width:5%;
+    right:0;
+    top:0;
+    height:100%;
+	background:url("../images/m_proview_simg_rb.jpg") 0px 18px no-repeat;
+	cursor:pointer;
+	/*
+	float:right;
+	width:23px;
+	height:100%;
+	background:url("../images/m_proview_simg_rb.jpg") 0px 18px no-repeat;
+	cursor:pointer;*/
+}
+
+#jqscc li a{
+	display:block;
+	padding-top:1px;
+	padding-left:1px;
+	width:73px;
+	height:78px;
+	border:1px solid #dddddd;
+	cursor:pointer;
+}
+/****************************自制图片滚动css  2底部的******************************************/
+#jqslbs
+{
+    position:absolute;
+	width:5%;
+	left:0;
+	top:0;
+	height:100%;
+	background:url("../images/m_proview_simg_lb.jpg") 0px 18px no-repeat;
+	cursor:pointer;
+}
+#jqscbs
+{
+    position:absolute;
+	width:85%;
+	height:100%;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+#jqsccs{
+	width:5000px;
+	height:100%;
+	position:relative;
+}
+#jqsccs ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#jqsccs li{
+	float:left;
+	margin-right:20px;
+	width:73px;
+	height:100%;
+}
+#jqsrbs
+{
+    position:absolute;
+    width:5%;
+    right:0;
+    top:0;
+    height:100%;
+	background:url("../images/m_proview_simg_rb.jpg") 0px 18px no-repeat;
+	cursor:pointer;
+    /*
+	display:inline;
+	margin-right:10px;
+	width:23px;
+	height:100%;
+	background:url("../images/m_proview_simg_rb.jpg") 0px 18px no-repeat;
+	cursor:pointer;*/
+}
+
+#jqsccs li a{
+	display:block;
+	padding-top:1px;
+	padding-left:1px;
+	width:73px;
+	height:78px;
+	border:1px solid #dddddd;
+}
+
+.divProductTab{width:100%;margin:0 auto;}

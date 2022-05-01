@@ -1,0 +1,14 @@
+﻿body {
+}
+#gallery { background-color: none; padding: 10px; width: 911px; }
+#gallery ul { list-style: none; padding-left:30px;padding-bottom:20px;} /* 为兼容，只能在UL用padding-left调整位置 */
+/* #gallery ul li { display: inline; } */
+/*#gallery ul li { clear:both;display: inline;}*/
+#gallery ul li { display:block;float:left;width:195px;height:215px;}
+/* #gallery ul img { border: 5px solid #3e3e3e; border-width: 5px 5px 20px; } */
+#gallery ul img{width:178px;height:174px;margin:10px 20px 30px 0px;} /* margin-right可兼容多种浏览器 */
+#gallery ul a:hover img{width:178px;height:174px;}
+/* #gallery ul a:hover img { border: 5px solid #fff; border-width: 5px 5px 20px; color: #fff; } */
+#gallery ul a:hover { color: #fff; }
+.galleryImg{position:relative;width:178px;height:190px;}
+.galleryTitle{position:absolute;left:0px;top:190px;width:176px;height:20px;text-align:center;font:12px "Microsoft Yahei";color:#606060;}/* 自加文字样式 */

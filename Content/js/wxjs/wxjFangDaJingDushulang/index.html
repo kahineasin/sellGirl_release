@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>广告代码 精美的JS图像放大镜效果 阿里西西整理发布</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-language" content="en">
+	<link rel="bookmark" type="text/html" title="Loupe.js" href="http://www.netzgesta.de/corner/">
+	<meta name="Author" lang="en" content="corner.netzgesta.de - Christian Effenberger">
+	<meta name="Publisher" lang="en" content="www.netzgesta.de">
+	<meta name="Copyright" lang="en" content="www.netzgesta.de - Christian Effenberger">
+	<meta name="Generator" lang="en" content="Christian Effenberger">
+	<meta name="Description" lang="en" content="Loupe.js 1.2 allows you to add a loupe to images on your webpages through unobtrusive javascript">
+	<meta name="Keywords" lang="en" content="Loupe.js,images,canvas,javascript,zoom,loupe,magnifier,glas,lens,Internet Explorer,Mozilla,Firefox,Opera,Safari">
+	<meta http-equiv="imagetoolbar" content="no">
+<style type="text/css">
+a { color: blue; font-style:italic; text-decoration:none; }
+tt {color: green;}
+b {color: gray;}
+body { background: url(backgrnd.jpg) silver; color: black; font-family: Georgia,serif; line-height: 1.5; margin: 0.5em 1em;}
+h2 { font-family: Verdana,Arial,Helvetica,sans-serif; }
+.tab { border: 1px solid gray; background: white; padding: 0.25em; } 
+#guru { padding: 4px; width: 99%; height: auto; text-align: center; background-color: black; }
+#guru div { border: solid 3px red; padding: 4px; font-family: monospace; font-size: 1.25em; width: auto; height: auto; color: red; text-align: center; text-decoration: blink; }
+#header { margin-bottom: 0; font-weight: normal; font-style: italic; color: gray; }
+.bookmarks { white-space: nowrap; width: 98%; margin: 0; padding-top: 10px; border-top: 1px dotted gray;}
+</style>
+</head>
+<body>
+您的位置：<a href="http://www.alixixi.com">阿里西西</a> > <a href="http://js.alixixi.com">网页特效</a> > <a href="http://js.alixixi.com/c/guanggao_1.shtml">广告代码</a><hr />
+<noscript><div id="guru" title="By this you can recognize the Amiga fan!"><div><strong>Guru Meditation</strong> - With deactivated JavaScript: Images stay unmodified!</div></div></noscript>
+<table>
+<tr><td valign="top"><a href="loupe.zip" title="download loupe.js"><img src="logo.jpg" border="0" width="352" height="160" alt="loupe.js" style="float:left; padding-right: 15px;"></a></td>
+<td style="line-height: 1.5; font-style: italic;">
+<p><strong>Loupe.js</strong> and <strong>Loupe.png</strong> allows you to add a loupe (magnifier) to images on your webpages. It uses unobtrusive javascript to keep your code clean.</p>
+<p>It works in all the major browsers - Mozilla Firefox 1.5+, Opera 9+, IE 6+ and Safari. On older browsers, it'll degrade and your visitors won't notice a thing.</p>
+</td></tr>
+</table>
+
+<h2>Setting Up</h2>
+
+<p>Download "loupe.js" and include it into your webpages HEAD section.</p>
+
+<code>
+// only if the image "<tt>loupe.png</tt>" is not in the current path
+<br>&lt;script type="text/javascript"&gt;var loupePath="<tt>imagepath/</tt>";&lt;/script&gt;
+<br>// else only this lines...
+<br>&lt;script type="text/javascript" src="<tt>loupe.js</tt>"&gt;&lt;/script&gt;
+<br>&lt;!--[if gte IE 6]&gt;
+<br>&lt;script type="text/javascript"&gt;var loupePath="<tt>vml/</tt>";&lt;/script&gt;
+<br>&lt;script type="text/javascript" src="<tt>vml/loupe.js</tt>"&gt;&lt;/script&gt;
+<br>&lt;![endif]--&gt;
+</code>
+
+<h2>Using It</h2>
+
+<p>To add a loupe just set the event onload="<tt>initLoupe(this.id);</tt>" to an div surrounded image.</p>
+<code>
+&lt;div&gt;<br>
+&lt;img id="..." onLoad="<tt>initLoupe(this.id);</tt>" src="..." width="356" height="205" alt="..."&gt;<br>
+&lt;/div&gt;
+</code>
+
+<h2>Usage</h2>
+
+<ul>
+<li>Function <tt>initLoupe(arg1[,arg2])</tt></li>
+<li><small><em>setting the image through <strong>image id</strong>:</em></small><br>
+Required Parameter arg1 e.g. <tt>this.id</tt> or <tt>"imgname"</tt> - default=null</li>
+<li><small><em>setting the startup <strong>visibility</strong> of the loupe:</em></small><br>
+Optional Parameter arg2 e.g. <tt>true</tt> - default=false</li>
+</ul>
+
+<h2>Demonstration</h2>
+
+<p>Shows what "loupe.js" does.</p>
+<div style="margin-left: 2em; width: 100%">
+<a class="tab" target="examples" href="caribbean.html">Zoom Effect <b>(Caribbean)</b></a>
+<a class="tab" target="examples" href="mona_lisa.html">Frame Effect <b>(Mona Lisa)</b></a>
+<a class="tab" target="examples" href="homer.html">Xray Effect <b>(Homer)</b></a>
+</div>
+<iframe style="border: 1px solid gray; margin-left: 2em;" src="caribbean.html" width="640" height="580" name="examples">
+<p>Your Browser is unable to show embedded frames:</p>
+<ul>
+  	<li><a href="caribbean.html">Zoom Effect</a> (Caribbean)</li>
+  	<li><a href="mona_lisa.html">Frame Effect</a> (Mona Lisa)</li>
+  	<li><a href="homer.html">Xray Effect</a> (Homer)</li>
+</ul>
+</iframe>
+
+<h2>Why use Javascript Image Loupe?</h2>
+
+<ul>
+<li>Fast and easy to implement. Just add onload="initLoupe(this.id);" to the image.</li>
+<li>Makes large images completely visibly through small page-areas.</li>
+<li>Works and looks really well. Doesn't require additional resources.</li>
+<li>It's possible to change the design of the loupe by use of a image editing program.</li>
+<li>Free of charge use on non-commercial and private web sites.</li>
+</ul>
+
+<p>In older browsers, the script degrades and your visitors won't notice a thing.</p>
+
+<h2>Restrictions</h2>
+
+<p>It's not advisable to use the script multiple times on the same page.</p>
+
+<h2>History</h2>
+
+Version 1.2<ul><li>Added support for Internet Explorer 6/7</li></ul>
+
+Version 1.1<ul><li>Works even with disabled cache</li></ul>
+
+Version 1.0<ul><li>Initial Release</li></ul>
+
+<h2>License</h2>
+
+<p>Loupe.js is distributed under this <a href="LICENSE.txt">LICENSE</a>. License permits free of charge use on non-commercial and private web sites only. <br>There is also a <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#110;&#102;&#111;&#064;&#110;&#101;&#116;&#122;&#103;&#101;&#115;&#116;&#097;&#046;&#100;&#101;">Commercial Software License</a> available.</p>
+
+<p><strong>Images used are copyrighted and are used for demonstration only.</strong></p>
+
+<p><a href="http://cvi.netzgesta.de/">cvi.netzgesta.de</a>&nbsp;&nbsp;also visit&nbsp;&nbsp;<a href="http://lab.netzgesta.de/">CVI-lab</a>, <a href="http://s5.netzgesta.de/">S5 Reloaded</a> and <a href="http://ajaxfilmdb.sourceforge.net/">AJAX-FilmDB</a></p>
+
+</body>
+</html>

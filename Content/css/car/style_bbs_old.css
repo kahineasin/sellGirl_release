@@ -1,0 +1,927 @@
+ul, li
+{list-style:none;
+}
+body,form,ol,ul,li,div,p{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a img{
+	border:0px;
+}
+a:hover{
+	text-decoration:underline;
+}
+body{
+	background-color:#f0eff0;
+}
+.divAdUpon{
+	position:fixed;
+	top:30%;
+	right:0%;
+	z-index:1;
+}
+.container{
+	margin:auto;
+	width:1000px;
+}
+.boxLeft{
+	float:left;
+	margin-top:8px;
+	width:250px;
+}
+.boxCenter{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:440px;
+}
+.boxRight{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:250px;
+}
+.divHead{
+	margin:auto;
+	width:1000px;
+	height:120px;
+	background:url(../../images/bbs/img/b_head.png) repeat-x;
+	border:1px solid #ededed;
+}
+.divLogin{
+	height:30px;
+	line-height:30px;
+}
+.divNav{
+	padding-top:5px;
+}
+.divLoginLeft{
+	float:left;
+	width:415px;
+	line-height:30px;
+}
+.divLoginLeft p{
+	text-align:right;
+	padding-top:5px;
+}
+.divLoginRight{
+	float:left;
+	width:580px;
+	line-height:30px;
+}
+.divLoginRight p{
+	padding-right:20px;
+	text-align:right;
+	font-size:12px;
+}
+.divNavLeft{
+	float:left;
+	width:250px;
+}
+.logo{
+	float:left;
+	width:80px;
+	text-align:right;
+}
+.divNavLeftText{
+	float:left;
+	width:140px;
+	padding-left:10px;
+	color:#80bb00;
+	font-weight:bolder;
+}
+.divNavLeftTextTop{
+	font-size:22px;
+	color:#80bb00;
+}
+.divNavLeftTextBottom{
+	font-size:16px;
+	color:#80bb00;
+}
+.divNavRight{
+	float:right;
+	margin-right:20px;
+	padding-top:10px;
+	width:700px;
+	height:65px;
+	background:url(../../images/bbs/img/nav_background.png) no-repeat;
+}
+.divNavRight p{
+	padding:0px 12px 0px 15px;
+	font-size:12px;
+}
+.divNavRight a{
+	float:left;
+	margin:0px;
+	padding:0px;
+	width:74px;
+	height:25px;
+	text-align:center;
+	color:white;
+}
+.divMiddle{
+	margin:auto;
+	width:1000px;
+	background:url(../../images/bbs/img/middle_background.png) repeat-x;
+	border:1px solid #ededed;
+}
+
+/* 登陆窗口 */
+.divUser{
+	float:left;
+	margin:8px 0px 0px 20px;
+	width:240px;
+	/*height:280px;*/
+	height:300px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.winTitle{
+	width:100%;
+	height:30px;
+	background:url(../../images/bbs/img/win_head.png) repeat-x;
+	font:14px "宋体";
+	font-weight:bolder;
+	line-height:30px;
+	/*margin-bottom:10px;*/
+}
+.winTitle p{
+	padding-left:20px;
+}
+.divUser .winTitle p{
+	color:#01c40a;
+}
+.divUserTop
+{
+    height:145px;
+}
+.divUserTopText{
+	padding-top:10px;
+
+}
+.divUserTopText p{
+	/*padding-top:5px;*/
+	padding-left:20px;
+	font:12px "宋体" black;
+}
+.divUserTopText input{
+	width:150px;
+	height:14px;
+    line-height:14px;
+	border:1px solid #c5c5c5;
+	color:#c5c5c5;
+}
+.divUserTopButton{
+	padding-top:10px;
+	padding-left:18px;
+}
+.divUserTopButton span{
+	float:right;
+	padding-right:20px;
+	/*vertical-align:center;*/
+	line-height:22px;
+	color:#8fbe5c;
+	font-size:12px;
+}
+.divUserTopButton img{
+	float:left;
+	padding-right:5px;
+}
+.divUserBottom{
+	float:left;
+	width:100%;
+	height:160px;
+	background:url(../../images/bbs/img/login_bottom_background.png) repeat-x;
+	background-position:0;
+}
+.divUserBottomText{
+	padding:20px 25px 0px 25px;
+}
+.divUserBottomText p{
+	height:20px;
+	
+}
+
+.fontBlack12{
+	font-size:12px;
+	color:black;
+}
+.divUserBottomButton{
+	padding:5px 35px 0px 35px;
+}
+.divUserBottomButton div{
+	display:block;
+}
+.divUserBottomButton a{
+	margin:3px;
+	float:left;
+	width:75px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	display:block;
+	border:1px solid #b0b0b0;
+	color:#333333;
+	font-weight:bolder;
+	font-size:14px;
+}
+.divUserBottomButton a:hover{
+	text-decoration:none;
+}
+/*.divUserBottomButtonFix{
+	height:40px;
+	overflow:hidden;
+}*/
+
+/* 中山新鲜事 */
+.divNews{
+	margin:0 auto;
+	margin:8px 0px 0px 10px;
+	width:440px;
+	height:265px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.divNewsTop{
+	margin:0 auto;
+	width:420px;
+	padding:10px 15px 10px 15px;
+}
+.divNewsTopContent{
+	margin:0 auto;
+	width:420px;
+	height:65px;
+}
+.divNewsTopImg{
+	float:left;
+	margin:8px;
+	padding:1px;
+	width:65px;
+	height:45px;
+	border:1px solid #cdcdcd;
+}
+.divNewsTopText{
+	margin:0 auto;
+	display:inline-block;
+	width:300px;
+
+}
+.divNewsTopText p{
+	padding-top:5px;
+	padding-bottom:5px;
+	line-height:20px;
+	font-size:12px;
+	color:#505050;
+}
+.divNewsTopText a{
+	font-size:12px;
+	color:#80bb01;
+}
+.divNewsBottom hr{
+	margin:0px 18px;
+	border-top:1px dashed #b0b0b0;
+}
+.divNewsBottom{
+	font-size:12px;
+	color:#505050;
+}
+.divNewsBottom ul{
+	padding:10px 20px 0px 40px;
+	line-height:20px;
+}
+
+/* 城市之星 */
+.divStar{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:250px;
+	height:150px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.divStar .winTitle{
+	color:#ff9600;
+}
+.divStarImg{
+	float:left;
+	width:95px;
+	height:95px;
+	margin:10px;
+	padding:1px;
+	border:1px solid #b0b0b0;
+	overflow:hidden;
+}
+.divStarText{
+	float:left;
+	margin:10px;
+	font-size:12px;
+	color:#3c3c3c;
+}
+.divStarText a{
+	line-height:26px;
+	text-align:center;
+}
+.divStarText p{
+	line-height:20px;
+}
+.divStarText hr{
+	border:0.5px dotted #b0b0b0;
+}
+.divAd{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:250px;
+	height:90px;
+	background-color:white;
+	border:1px solid #a3ef00;
+	overflow:hidden;
+}
+.divAd img{
+	width:250px;
+	height:90px;
+}
+
+/* 小区排名 */
+.divHothouse{
+	float:left;
+	margin:8px 0px 0px 20px;
+	width:240px;
+	height:323px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+	overflow:hidden;
+}
+.divHothouseNo{
+	font:12px "宋体";
+	color:#3c3c3c;
+}
+.divHothouseNo span.normal{
+	float:left;
+	width:28px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	display:block;
+	border:1px solid #b5b5b5;
+}
+.divHothouseNo p.normal{
+	padding-left:10px;
+	float:left;
+	width:195px;
+	height:25px;
+	line-height:25px;
+	border:1px solid #b5b5b5;
+}
+.divHothouseNoActive{
+	float:left;
+	width:28px;
+	height:73px;
+	line-height:73px;
+	text-align:center;
+	background-image:url(../../images/bbs/indeximg/hothouse_no0.png);
+	background-repeat:no-repeat;
+	border:1px solid #b5b5b5;
+}
+.divHothouseNoActiveP{
+	padding-left:10px;
+	float:left;
+	width:195px;
+	height:73px;
+	line-height:73px;
+	background-image:url(../../images/bbs/indeximg/hothouse_no_background.png);
+	background-repeat:no-repeat;
+	border:1px solid #b5b5b5;
+	overflow:hidden;
+}
+.divHothouseNoActiveP img{
+	float:right;
+	margin:6px 10px 0px 0px;
+	padding:1px;
+	width:75px;
+	height:55px;
+	border:1px solid #b5b5b5;
+}
+
+
+.divHothouseNoHidden{
+	display:none;
+}
+.divHothouseNoVisible{
+	display:visible;
+}
+
+/* 同城活动 */
+.divActions{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:440px;
+	height:350px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.divActionsEnrolTitle{
+	padding-top:10px;
+	padding-left:20px;
+	height:20px;
+	line-height:20px;
+}
+.divActionsEnrolTitle p{
+	float:left;
+	width:100px;
+	font-size:12px;
+	color:#80bb00;
+
+}
+.divActionsEnrolTitle hr{
+	float:left;
+	width:290px;
+	border-top:1px solid #b0b0b0;
+	border-left:1px solid white;
+}
+.divActionsEnrolText{
+	height:80px;
+}
+.divActionsEnrolText img{
+	float:left;
+	margin:8px 15px;
+}
+.divActionsEnrolText a{
+	float:left;
+	margin:8px 0px;
+	width:300px;
+	font-size:12px;
+	font-weight:bolder;
+}
+.divActionsEnrolText span{
+	padding-left:6px;
+	font-weight:normal;
+	color:#b0b0b0;
+}
+.divActionsEnrolText p{
+	float:left;
+	width:300px;
+	font-size:12px;
+	color:#505050;
+}
+.divActionsImgTitle{
+	padding-left:20px;
+	height:20px;
+	line-height:20px;
+}
+.divActionsImgTitle p{
+	float:left;
+	width:60px;
+	font-size:12px;
+	color:#80bb00;
+
+}
+.divActionsImgTitle hr{
+	float:left;
+	width:330px;
+	border-top:1px solid #b0b0b0;
+	border-left:1px solid white;
+}
+.inHotInfo{margin-left:10px;width:415px;height:88px;padding:0px;zoom:1;}
+.inHotInfoL{float:left;width:15px;padding-top:36px;cursor:pointer;}
+.inHotInfoR{float:right;width:15px;text-align:right;padding-top:36px;cursor:pointer;}
+.inHotInfoText{float:left;width:380px;overflow:hidden;padding-top:5px;list-style-type:none;}
+.inHotInfoText li{float:left;width:115px;height:90px;padding-left:10px;}
+.inHotInfoText img{float:left;padding:1px;width:100px;height:70px;border:1px solid #b0b0b0;}
+.inHotInfoText a{float:left;width:100px;line-height:20px;text-align:center;font-size:12px;color:#666;}
+
+/* 搜索 */
+.divSearchTop p{
+	padding-right:2px;
+	float:left;
+	width:37px;
+	height:19px;
+	line-height:19px;
+	text-align:center;
+	font-size:12px;
+}
+.divSearchTopNormal{
+	background:url(../../images/bbs/indeximg/search_top_button_bg1.png) no-repeat;
+	font-size:12px;
+	color:#505050;
+}
+.divSearchTopActive{
+	background:url(../../images/bbs/indeximg/search_top_button_bg0.png) no-repeat;
+	font-size:12px;
+	font-weight:bolder;
+	color:white;
+}
+.divSearch{
+	float:left;
+	margin:8px 0px 0px 10px;
+
+}
+.divSearchBottom{
+	float:left;
+	width:440px;
+	height:30px;
+	line-height:30px;
+	background-color:#e9e9e9;
+	border:1px solid #b5b5b5;
+	border-top:2px solid #ff9623;
+}
+.divSearchBottomGet{
+    float:left;
+	margin-left:10px;
+    margin-right:5px;
+	width:350px;
+	height:8px;
+	line-height:8px;
+	border:1px solid #d0d2cd;
+	font-size:10px;
+	color:#c5c5c5;
+}
+.divSearchBottomSubmit{
+	/*width:60px;*/
+    padding-top:0px;
+	height:22px;
+	line-height:22px;
+}
+
+/* 同城求助 */
+.divHelp{
+	float:left;
+	margin:8px 0px 0px 20px;
+	width:240px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.divHelpText ul{
+	float:left;
+	padding:15px 0px 15px 30px;
+	font-size:12px;
+	color:#3c3c3c;
+}
+.divHelpText li{
+	height:20px;
+	line-height:20px;
+	color:#3c3c3c;
+}
+/* 上门服务 */
+.divService{
+	float:left;
+	margin:8px 0px 0px 20px;
+	width:240px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.divServiceText ul{
+	float:left;
+	padding:15px 0px 15px 30px;
+	font-size:12px;
+	color:#3c3c3c;
+}
+.divServiceText li{
+	height:20px;
+	line-height:20px;
+	color:#3c3c3c;
+}
+
+/* 同城论坛 */
+.divBbs{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:440px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.divBbsText ul{
+	float:left;
+	padding:15px 0px 15px 30px;
+	font-size:12px;
+	color:#3c3c3c;
+	list-style-type:none;
+}
+.divBbsTextTitle{
+	width:48px;
+}
+.divBbsText li{
+	width:400px;
+	height:20px;
+	line-height:20px;
+	color:#3c3c3c;
+}
+.divBbsText a{
+	float:left;
+}
+.divBbsText span{
+	padding-left:20px;
+	text-decoration:underline;
+	color:#505050;
+}
+.divBbsText p{
+	float:right;
+	padding-right:30px;
+	text-align:right;
+	color:#b0b0b0;
+}
+
+/* 最新加入 */
+.divNewjoin{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:250px;
+	height:430px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.divNewjoinImg{
+	padding:5px;
+}
+.divNewjoinImgFace{
+	float:left;
+	padding:8px;
+	width:61px;
+	height:80px;
+}
+.divNewjoinImgFace img{
+	float:left;
+	padding:1px;
+	width:61px;
+	height:61px;
+	border:1px solid #b0b0b0;
+}
+.divNewjoinImgFace a{
+	float:left;
+	width:61px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	font-size:12px;
+}
+
+/* 最新冒泡 */
+.divNewsay{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:250px;
+	height:290px;
+	background-color:white;
+	border:1px solid #b5b5b5;
+}
+.divNewsayTextFace{
+	padding:10px 12px 0px 12px;
+	height:70px;
+}
+.divNewsayTextFace img{
+	float:left;
+	padding:1px;
+	width:61px;
+	height:61px;
+	border:1px solid #b0b0b0;
+}
+.divNewsayTextFace p{
+	float:left;
+	padding:10px;
+}
+.divNewsayTextFace a{
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+}
+.divNewsayTextFace span{
+	color:#b0b0b0;
+}
+
+/* foot */
+.divFoot{
+	float:left;
+	margin:auto;
+	margin-top:8px;
+	width:1000px;
+	height:120px;
+	background:url(../../images/bbs/indeximg/foot_background.png) repeat-x;
+	font-size:12px;
+	border-top:1px solid #b0b0b0;
+}
+.divFoot p{
+	text-align:center;
+	height:20px;
+	line-height:20px;
+}
+.divFoot span{
+	color:#f8b551;
+}
+
+/* 论坛部分 */
+
+/* 论坛head */
+.divBbsHead{
+	width:1000px;
+	height:200px;
+	background:url(../../images/bbs/bbs_img/bss_head_bg.png);
+}
+.divBbsHead a{
+	padding-left:50px;
+	height:200px;
+	line-height:200px;
+	font-size:50px;
+	font-weight:bolder;
+	color:white;
+}
+.divBbsHead a:hover{
+	color:white;
+	cursor:pointer;
+}
+
+/* 论坛contents */
+.divContents{
+    /*clear:both;
+    position:relative;*/
+	/*height:600px;*/
+	/*height:980px;*/
+	height:auto;
+	border:1px solid #b0b0b0;
+}
+.divContentsTitle{
+    /*clear:both;*/
+    /*position:absolute;
+    top:0px;
+    display:inline-block;*/
+	margin:1px 1px 0px 1px;
+    padding:0px;
+	height:30px;
+    line-height:30px;
+	background:url(../../images/Bbs/bbs_img/bss_contents_title_bg.png) repeat-x;
+	border-bottom:1px solid #75ac00;
+    /*border-top:1px solid red;*/
+}
+    .divContentsTitle h3
+    {
+        padding:0px;
+        margin:0px;
+        line-height:30px;
+    }
+.divBbsNav{
+	height:34px;
+	background:url(../bbs_img/bss_contents_nav_bg.png) repeat-x;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+}
+.divBbsNav p{
+	padding-left:10px;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	color:#b0b0b0;
+}
+.divBbsNav a{
+	color:
+}
+.divBbsNavLeft{
+	float:left;
+}
+.divBbsNavRight{
+	padding-right:10px;
+	float:right;
+	height:30px;
+	line-height:30px;
+}
+.divBbsNavRight input{
+	color:#b0b0b0;
+}
+.divBbsNavRight select{
+	color:#b0b0b0;
+}
+.divBbsNavRightButton{
+	margin:0px;
+	padding:0px;
+	width:78px;
+	height:21px;
+	line-height:26px;
+	background:url(../bbs_img/bbs_search_button.png) no-repeat;
+	border:0px;
+}
+
+.divBbsLogin{
+	height:32px;
+	background:url(../bbs_img/bss_contents_login_bg.png) repeat-x;
+	border:1px solid #c3c3c3;
+}
+.divBbsLogin{
+	padding-left:10px;
+	height:30px;
+	line-height:30px;
+}
+.divBbsLoginLeft{
+	float:left;
+}
+.divBbsLoginRight{
+	float:right;
+	padding-right:10px;
+	height:30px;
+	line-height:30px;
+}
+.divBbsLoginRight input{
+	color:#b0b0b0;
+}
+.divBbsLoginRightButton{
+	margin:0px;
+	padding:0px;
+	width:39px;
+	height:21px;
+	line-height:26px;
+	background:url(../bbs_img/bss_contents_login_button.png) no-repeat;
+	border:0px;
+}
+
+/* forumInfo */
+.forumInfo{
+	height:40px;
+	line-height:40px;
+}
+#userinfo{
+	float:left;
+	padding-left:10px;
+
+}
+#forumstats{
+	float:right;
+	padding-right:10px;
+}
+.divContentsTitle h3{
+	padding-left:10px;
+	float:left;
+	height:30px;
+	line-height:30px;
+	color:white;
+}
+.divContentsTitle a{
+	color:white;
+}
+.divContentsText{
+	height:20px;
+	line-height:20px;
+
+	font-size:12px;
+	color:#666666;
+}
+/*.divContentsText table{
+	background-color:white;
+
+}
+.divContentsText table tr tbody tr{
+	background:url(../bbs_img/bbs_contents_list.png) no-repeat;
+	background-position:10px 50%;
+	
+}
+
+.divContentsText table td{
+	padding-right:20px;
+	border-bottom:1px solid #b0b0b0;
+
+}*/
+ table.divContentsText{
+     margin-top:0px;
+     /*border:1px solid red;*/
+     width:100%;
+	background-color:white;
+
+}
+ 
+.divContentsText #forum2 li{
+	background:url(../../images/bbs/bbs_img/bbs_contents_list.png) no-repeat;
+	background-position:10px 50%;
+	
+}
+ table.divContentsText tr tbody tr{
+	background:url(../bbs_img/bbs_contents_list.png) no-repeat;
+	background-position:10px 50%;
+	
+}
+
+ table.divContentsText td{
+	padding-right:20px;
+	border-bottom:1px solid #b0b0b0;
+
+}
+.divContentsText .nums{
+	width:60px;
+	text-align:center;
+}
+.divContentsText th{
+	width:540px;
+	border-bottom:1px solid #b0b0b0;
+}
+.divContentsText h2{
+	padding-left:50px;
+	width:500px;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	font-size:14px;
+	font-weight:normal;
+	color:black;
+}
+.divContentsText p{
+	padding-left:50px;
+	width:500px;
+	text-align:left;
+	font-weight:normal;
+}

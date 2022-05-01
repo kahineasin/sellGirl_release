@@ -1,0 +1,30 @@
+﻿
+/* 下面是三级分类 */
+/* common styling */
+.divPro_view_main_left{position:relative;z-index:5;width:100%;}
+.menuThree {font-family: arial, sans-serif;position:relative;z-index:5;  width:90%;height:auto; font-size:14px; margin:10px auto 0px auto;}/* 一级正常宽度 */
+.menuThree ul{position:relative;z-index:5;  width:100%;}
+.menuThree ul li{position:relative;z-index:5;  width:100%;}
+/* 一级分类正常北京色 */
+.menuThree ul li a, .menu ul li a:visited {display:block; padding-left:0px;background-color:#ddd;text-decoration:none;width:100%;height:2.8em; text-align:left;  line-height:2.8em; border-bottom:1px dotted #808080;border-right:1px dotted #808080;font-size:14px "Microsoft Yahei";color:#454545; overflow:hidden;}
+.menuThree ul li a.hide{text-align:center;width:100%;border:none;border-bottom:1px dotted #606060;} /* 一级分类正常背景background:url(../images/main_left_con_li_bg1.jpg) no-repeat; */
+.menuThree ul {padding:0; margin:0;list-style-type: none; }
+.menuThree ul li {float:left; margin-right:1px; position:relative;z-index:5;}
+.menuThree ul li ul {display: none;}
+.menuThree ul li ul li ul{display: none;}
+/* specific to non IE browsers */
+.menuThree ul li:hover a {color:#fff; background:#DADADA;color:#5c87b2;}/* 一级分类选择时背景background:url(../images/main_left_con_li_bg2.jpg) no-repeat; */
+.menuThree ul li:hover ul {display:block; position:absolute; top:0; left:100%; width:100%;}/* 二级与一级的left */
+.menuThree ul li:hover ul li a.hide {padding-left:0px;width:100%;background:#eee; color:#454545;width:100%;}/* 二级菜单正常宽度 */
+.menuThree ul li:hover ul li:hover a.hide {background:#6a3;color:#000;width:100%;} /* 二层目录已选时背景色 */
+.menuThree ul li:hover ul li ul {display: none;}
+.menuThree ul li:hover ul li a {text-align:center;padding-left:0%;display:block; background:#eee; color:#000;width:100%;} /* 二级菜单正常背景色，三级菜单字体左缩进 */
+.menuThree ul li:hover ul li a:hover {background:#EAF69F; color:#000;}
+.menuThree ul li:hover ul li:hover ul {display:block; position:absolute; left:100%; top:0;}
+.menuThree ul li:hover ul li:hover ul li a.hide{background:#eee;} /* 二层已选三层未选时三层的颜色 */
+.menuThree ul li:hover ul li:hover ul li ul{display:none;}
+.menuThree ul li:hover ul li:hover ul li:hover ul{display:block;}
+.menuThree ul li:hover ul li:hover ul li:hover a.hide{background:#6a3;}/* 三层已选时背景色 */
+
+.divPro_view_main_left_tit img{width:100%; margin-left: auto;margin-right: auto;}
+.divMain_left_img img{width:100%; margin-left: auto;margin-right: auto;}

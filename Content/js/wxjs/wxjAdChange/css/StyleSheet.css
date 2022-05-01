@@ -1,0 +1,15 @@
+﻿body {
+}
+    /* 按钮位置 */
+	#SlideNav{position:absolute;right:0;top:345px;right:25px;}
+	/* 下面这句可加背景图，路径为../img/index_ad_btn_nor.gif */
+	#SlideNav a{ display:block;float:left;text-align:center;margin:0 5px;width:26px;height:27px;font-family:Arial, Helvetica, sans-serif;background-color:#8a8a8a;color:white;font-weight:bolder;text-decoration: none;line-height:27px;}
+	
+	/* 下面这句可加选择时背景图，路径为../img/index_ad_btn_sel.gif */
+	#SlideNav a.activeSlide { background-color:#3a5572;}
+	
+	#SlideNav a:focus { outline: none;}
+/* 下面是展示广告图片时的样式 */
+	/* #SlideContainer p{position:absolute;left:0;bottom:10px;right:10px;padding-left:10px;height:20px;font-weight:bolder;color:white;overflow:hidden;} */
+
+/* 下面是展示广告文章时的样式 */

@@ -1,0 +1,17 @@
+﻿body {
+}
+/* 左右滚动图片 */
+a { color:#777777; font-size:9pt; text-decoration:none; } /* 字体颜色 */
+a:hover { color:#0066cc; }
+.blk_18 { overflow:hidden; zoom:1; font-size:9pt; border:none; background:none; width:340px; margin-top:12px;margin-bottom:20px;}
+.blk_18 .pcont { width:250px; float:left; overflow:hidden; padding-left:5px; }
+.blk_18 .ScrCont { width:32766px; zoom:1; margin-left:-5px; }
+.blk_18 #List1_1, .blk_18 #List2_1 { float:left; }
+.blk_18 .LeftBotton, .blk_18 .RightBotton { width:15px; height:74px; float:left; background:url(../../wxjs/wxjScrollLR/ax.gif) no-repeat; }
+.blk_18 .LeftBotton { background-position: 0 0; margin:10px 5px 0; }
+.blk_18 .RightBotton { background-position: 0 -100px; margin:10px 1px 10px 5px; }
+.blk_18 .LeftBotton:hover { background-position: -20px 0; }
+.blk_18 .RightBotton:hover { background-position: -20px -100px; }
+.blk_18 .pl img { display:block; width:76px;height:76px;cursor:pointer; border:none; margin:0px auto 2px auto;padding:2px; }/* 可加图片背景 */
+.blk_18 .pl { width:85px; border:none; float:left; float:left; text-align:center; line-height:24px; }
+.blk_18 a.pl:hover { color:black; background:none; }

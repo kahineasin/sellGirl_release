@@ -1,0 +1,265 @@
+*
+{font-size:12px;
+}
+.divForumHead{
+	width:1000px;
+	height:40px;
+}
+.divMaster{
+	height:20px;
+	float:left;
+	width:60%;
+
+}
+.divForumPage{
+	height:20px;
+	float:left;
+	width:60%;
+}
+
+.divAddContents{
+	margin-top:10px;
+	text-align:right;
+}
+.category td{
+	text-align:center;
+}
+
+
+.divContentsText .nums{
+	width:60px;
+	text-align:center;
+}
+.divContentsText th{
+	width:540px;
+	border-bottom:1px solid #b0b0b0;
+}
+.divContentsText h2{
+	padding-left:50px;
+	width:500px;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	font-size:14px;
+	font-weight:normal;
+	color:black;
+}
+/*.divContentsText p{
+	padding-left:50px;
+	width:500px;
+	text-align:left;
+	font-weight:normal;
+}*/
+
+.divContentsReadContentsTop p{
+	padding-left:50px;
+	width:500px;
+	text-align:left;
+	font-weight:normal;
+}
+/* 添加新闻 */
+.divAddNewsText{
+	height:35px;
+}
+.divAddNews td{
+	padding-left:10px;
+}
+.divAddNewsContents{
+
+	vertical-align:top;
+
+}
+.divAddNewsContents td{
+	padding:10px 0px 10px 10px;
+}
+.divContentsReadNews{
+	border:1px solid #b0b0b0;
+}
+
+/* 浏览新闻 */
+.divContextsTextLeft{
+	float:left;
+	width:798px;
+	background-color:white;
+}
+/* 浏览新闻-回复漂浮图 */
+.divResponseUpon{
+	position:fixed;
+	top:60%;
+	right:0%;
+	z-index:1;
+}
+.divResponseUpon a p
+{
+    width:inherit;
+    text-align:center;
+    font:16px "Microsoft YaHei";
+}
+/* 浏览新闻-悬浮图*/
+.divNewsFlowImg{
+	position:fixed;
+	top:0%;
+	left:0%;
+	z-index:1;
+}
+    .divNewsFlowImg p {
+        color:red;
+        font-size:18px;
+        font-weight:bolder;
+    }
+.divNewsFlowImg img {
+    max-width:400px;
+    max-height:900px;
+}
+/* 热门新闻 */
+
+.divContextsTextRight{
+	float:left;
+	width:200px;
+}
+.divWinHotNews{
+	margin:2px;
+	/*height:200px;*/
+    height:auto;
+	background-color:#d8ffa1;
+	border-left:1px solid #75ac00;
+	border-bottom:1px solid #75ac00;
+}
+.divWinHotBbs{
+	margin:2px;
+	background-color:#d8ffa1;
+	border-left:1px solid #75ac00;
+	border-bottom:1px solid #75ac00;
+}
+.divWinTitle{
+	background:url(../../images/bbs/bbs_img/bss_contents_win_title_bg.png) repeat-x;
+	border:1px solid #75ac00;
+}
+.divWinTitle p{
+	padding-left:20px;
+	font-weight:bolder;
+	color:white;
+}
+.divWinHotNews li{
+	height:25px;
+	padding-left:10px;
+	color:#222222;
+	line-height:25px;
+
+}
+.divWinHotBbs li{
+    display:block;
+    float:left;
+	/*height:25px;*/
+    height:auto;
+	padding-left:10px;
+	color:#222222;
+	line-height:25px;
+}
+.divContentsReadContentsTop{
+	padding:10px;
+	height:60px;
+}
+.divContentsReadContentsTop img{
+	float:left;
+}
+.divContentsReadContentsTop p{
+	float:left;
+
+}
+.divContentsReadContentsTop span{
+	color:green;
+}
+.divContentsReadContentsTop b{
+	font-size:14px;
+}
+.divContentsReadContents hr{
+	
+	float:left;
+
+}
+.divContentsReadContentsMiddle
+{
+    padding:10px;
+    position:relative;
+}
+.divContentsReadContentsMiddle p{
+	/*margin-top:10px;
+	padding-left:15px;
+	float:left;
+	width:760px;*/
+}
+.divHrDashed0{
+	margin-top:10px;
+	margin-left:10px;
+	width:96%;
+	color:green;
+	border-top:1px dashed green;
+}
+.divHrDouble0{
+	margin-top:20px;
+	margin-left:5px;
+	width:98%;
+	margin-bottom:20px;
+	border-top:3px double green;
+}
+
+/* 论坛快速回复窗口 */
+.divNewsQuickReply{
+	margin-left:10px;
+	float:left;
+	border:1px solid #75ac00;
+}
+.divNewsQuickReply ul{
+	width:760px;
+}
+.divNewsQuickReply li{
+	margin:6px;
+	float:left;
+	width:750px;
+	line-height:20px;
+}
+.divNewsQuickReply p{
+	float:left;
+	width:50px;
+	vertical-align:top;
+}
+.divNewsQuickReply input{
+	float:left;
+}
+.divNewsQuickReply textarea{
+	float:left;
+    width:80%;
+}
+.divNewsQuickReplyAddBtn{
+	margin-left:98px;
+	width:80px;
+}
+.divNewsQuickReplyTitle{
+	padding-top:6px;
+	margin-bottom:10px;
+	float:left;
+	width:760px;
+	height:25px;
+	background:url(../../images/bbs/newsimg/newsquickreply_title_bg.png) repeat-x;
+	border-bottom:1px solid #b0b0b0;
+}
+.divNewsQuickReplyTitle cite{
+	padding-top:10px;
+	padding-left:20px;
+	font-size:14px;
+	color:#666666;
+
+}
+/* readboy投票 */
+ul.divBbsPollCheckbox{padding-top:10px;padding-bottom:10px;border-top:1px solid #ddd;}
+ul.divBbsPollCheckbox{list-style-type:none;vertical-align:center;}
+ul.divBbsPollCheckbox li{display:inline;height:14px;font:14px "Microsoft Yahei";color:#606060;}
+ul.divBbsPollCheckbox li input{height:14px;font:14px "Microsoft Yahei";color:#606060;vertical-align:middle;}
+ul.divBbsPollCheckbox p{font:12px "Microsoft Yahei";color:#606060;}
+ul.divBbsPollCheckbox p a{font:12px "Microsoft Yahei";color:red;}
+/* readboy页脚签名 */
+.divBbsBoxRBottom{padding:10px 0px 10px 6px;width:788px;border-top:1px solid #dddddd;}
+.divBbsBoxRBottomL{float:left;width:518px;}
+.divBbsBoxRBottomL{font:12px "Microsoft YaHei";color:#606060;}
+.divBbsBoxRBottomR{display:inline-block;width:264px;}

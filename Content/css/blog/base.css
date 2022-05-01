@@ -1,0 +1,15 @@
+﻿body {
+}
+.sellgirl-layer
+{
+    position:relative;
+    overflow:hidden;
+}
+.sellgirl-list
+{
+    position:absolute;top:0px;
+}
+.sellgirl-pager
+{
+    position:absolute;bottom:0px;right:0px;
+}

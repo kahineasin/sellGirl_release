@@ -1,0 +1,32 @@
+﻿body {
+}
+.none{
+	display:none;
+}
+.active{
+	cursor:default;
+	width:112px;height:23px;
+	background-color:#FFC600;
+}
+.active a{
+	font:14px "Microsoft Yahei";
+	color:White;}
+.active p{font:14px "宋体";font-weight:bold;color:#c90103;}
+.normal p{font:14px "宋体";font-weight:bold;color:#606164;}
+.normal a{
+	font:14px "Microsoft Yahei";
+	color:White;}
+
+
+.divAboutNav{clear:both;margin:0 auto;padding:0px 20px;width:960px;height:50px;}
+.divAboutC{margin:0 auto;width:1000px;}
+.divAboutC ul,li{list-style:none;}
+.divAboutNav ul li{float:left;margin-right:2px;width:112px;height:23px;	cursor: pointer;text-align:center;line-height:23px;}
+.divAboutNav ul li.normal{background-color:#aaaaaa;}
+.divAboutNav ul li p{width:112px;font:14px "宋体";font-weight:bold;text-align:center;}
+.divAboutNav ul li span{width:112px;font:12px "arial";color:#a1a1a1;text-align:center;}
+
+
+/* 联系我们 */
+.divContactContent{clear:both;position:relative;margin:0 auto;padding-top:10px;width:1000px;height:auto;background-color:White;}
+.divScrollDelta{position:absolute;z-index:2;left:67px;top:33px;width:18px;height:10px;background:url(delta.jpg) no-repeat;}
